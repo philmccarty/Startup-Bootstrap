@@ -14,3 +14,8 @@ php artisan key:generate
 
 3. set up your Facebook credentials [optional]
 app/config/packages/artdarek/oauth-4-laravel/config.php
+
+
+next steps:
+ 
+FB Login button and $code checking at route level
