@@ -1,14 +1,3 @@
-@extends('layouts.master')
-
-@section('title')
-<title>Startup Bootstrap</title>
-@stop
-
-@section('head')
-
-@stop
-
-@section('content')
 
 
 <div id="page-wrapper">
@@ -21,15 +10,3 @@
      <!-- /.row -->
  </div>
  <!-- /#page-wrapper -->
-
-
-@stop
-
-@section('javascript')
-
-<script>
-
-</script>
-
-
-@stop

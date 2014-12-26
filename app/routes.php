@@ -17,4 +17,10 @@ Route::get('/', function()
 	return View::make('welcome');
 });
 
-//	return View::make('hello');
+
+Route::group(array('prefix' => 'api/v1'), function()
+{
+
+
+});
+
