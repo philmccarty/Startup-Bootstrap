@@ -4,6 +4,13 @@ $(document).ready(function(){
 	$('#page-wrapper').css('height',new_height);
 });
 
+$( '#search_input' ).bind('keypress', function(e){
+  if ( e.keyCode == 13 ) {
+   		// do something
+  }
+});
+
+
 function get_ajax(variable)
 {
 	

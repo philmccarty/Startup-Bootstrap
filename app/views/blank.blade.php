@@ -1,5 +1,8 @@
 @extends('layouts.master')
+<?php
 
+	$version = time();
+?>
 @section('title')
 <title>Startup Bootstrap</title>
 @stop
@@ -30,6 +33,7 @@
 <script>
 
 </script>
+<script src="/js/[path/report_name].js?version=<?php echo $version; ?>"></script>
 
 
 @stop

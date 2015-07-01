@@ -1,8 +1,11 @@
 Startup Bootstrap
 
-Currently using Laravel 
+Currently using Laravel 4.0
 Twitter Bootstrap
 Ardent OAuth
+SB Admin Template (dashboard)
+Buzz - For Consuming External APIs 			https://github.com/kriswallsmith/Buzz
+
 
 Installation:
 
@@ -14,6 +17,8 @@ php artisan key:generate
 
 3. set up your Facebook credentials [optional]
 app/config/packages/artdarek/oauth-4-laravel/config.php
+
+4. Make sure your Apache Host Configuration has AllowOverride on the .htaccess or in the Virtual Host
 
 
 next steps:
